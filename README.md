@@ -34,26 +34,6 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 - Live Site URL: [Github pages](https://staceysav.github.io/Profile_card/)
 
 ## My process
-Difficulties:
-when creating background, i couldn't position the circles inside the background div and make it partially "leave" the screen at the same time. - but that was not the problem itself... Оказалось, для того, чтобы двигать элементы относительно друг друга, необходимо добавить для родительсткого элемента position: relative, а для дочернего position:absolute.
-
-Is it better to put images inside the background div or outside? to use   overflow: hidden; inside div is what i need?
-
-id or class?
-
-а нужно ли создавать отдельный div или можно прямо в body всё вписывать?
-
-размер mobile version 375, получается судя по макету, ширина карточки примерно 360px.
-
-
-как сделать так, чтобы картинка в карточке точно подходила по размерам??
-
-добавление белой обводки фото кажется очевидным, но не для меня. оказывается, ружно просто добавить border к этой картике.
-
-как организовать бэкграунд, чтобы при уменьшении размера экрана декоративные круги не сдвигались?
-
-как выровнять results по вертикали?
-
 
 ### Built with
 
